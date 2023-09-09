@@ -1,0 +1,131 @@
+/* input_form.css */
+
+/* Reset some default styles */
+
+  
+  /* Apply a background color to the entire page */
+  
+  /* Style the header */
+  .header {
+    margin-top: 15px;
+    color: #1f1d1d;
+    padding: 10px 0;
+    text-align: center;
+    font-size: 45px;
+  }
+  
+  /* Style the navigation bar */
+  .navbar {
+    max-width: 960px;
+    margin: 0 auto;
+  }
+  
+  /* Style the content container */
+  .content {
+
+    background-color: #fff;
+    max-width: 960px;
+    margin: 25px;
+    padding: 25px;
+    border-radius: 5px;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
+  }
+  
+  /* Style the form elements */
+  .input-form {
+    display: flex;
+    flex-direction: column;
+    
+  }
+  
+
+
+  .input-form input[type="text"],
+  .input-form textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  .input-form .add-button {
+    background-color: #2384eb;
+    border: none;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    margin-bottom: 40px;
+  }
+  
+  .input-form .add-button:hover {
+    background-color: #0056b3;
+  }
+  
+  .input-form .submit {
+    background-color: #319c4a;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    
+    width: 200px;
+  }
+  
+  .input-form .submit:hover {
+    background-color: #1e7e34;
+  }
+  
+  /* Style the dynamic input fields */
+  .input-field {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+  }
+  
+  .input-field input[type="text"] {
+    flex: 1;
+    padding: 10px;
+    margin-right: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  .input-field button {
+    background-color: #d75663;
+    color: #ffffff;
+    padding: 5px 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    height: 45px;
+    margin-bottom: 13px;
+  }
+  
+  .input-field button:hover {
+    background-color: #ce3948;
+  }
+  
+  /* Responsive Styles */
+  @media screen and (max-width: 768px) {
+    /* Adjust styles for screens with a max width of 768px (tablets and smaller) */
+    .input-form input[type="text"],
+    .input-form textarea {
+      margin-bottom: 10px;
+    }
+    
+    .input-field input[type="text"] {
+      margin-right: 0;
+    }
+  }
+  
+
+.felexb{
+  display: flex;
+  width: 100px;
+  align-items: center;
+  justify-content: center;
+}
