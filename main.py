@@ -190,8 +190,8 @@ async def electionHall(elecData: electionData):
         data = db.true.find_one(query, filter)
         print(data["email"])
         sendMail(rmail=data["email"],
-                 vpage=f"http://127.0.0.1:5173/voting?id={rid}",
-                 vdashboard= f"http://127.0.0.1:5173/dashboard?id={rid}",
+                 vpage=f"http://localhost:5173/voting?id={rid}",
+                 vdashboard= f"http://localhost:5173/dashboard?id={rid}",
                  )
             
             

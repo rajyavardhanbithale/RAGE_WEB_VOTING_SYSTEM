@@ -7,6 +7,15 @@ const queryParameters = new URLSearchParams(window.location.search)
 const id = queryParameters.get("id")
 async function fetchUserData() {
 
+
+    const cookies = new Cookies();
+    const valc = cookies.get('BROWSER-X-RENDER-COOKIE')
+
+    const navigate = useNavigate();
+
+    if (valc === undefined)
+        navigate('/')
+
     
     const id = queryParameters.get("id")
 
