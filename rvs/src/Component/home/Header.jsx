@@ -21,7 +21,7 @@ function Header() {
               className="text-center self-center px-4 w-full lg:h-[230px] md:px-2 lg:px-20 md:text-left md:w-6/12 md:flex md:flex-col md:justify-between"
             >
               <h3 className="text-3xl m-10 md:text-4xl text-black font-bold">
-                RAGE SECURE VOTING PLATEFORM
+                RAGE SECURE VOTING PLATFORM
 
                 <h2 className='text-xl mt-2 '>"Vote With Confidence
                  Explore Our Works"</h2>

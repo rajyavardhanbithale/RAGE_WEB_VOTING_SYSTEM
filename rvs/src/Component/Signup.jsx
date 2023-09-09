@@ -84,8 +84,8 @@ function Signup() {
                   <input type="text" name="lname" value={lname} onChange={(e) => setLname(e.target.value)} placeholder="Last Name" className="border w-full px-4 py-2 rounded-md" id="" />
                 </div>
                 <div className="flex gap-4">
-                  <input type="text" name="mnumber" value={mnumber} onChange={(e) => setMnumber(e.target.value)} maxLength="10" minLength="10" placeholder="Mobile Number" className="border w-full px-4 py-2 rounded-md" id="" />
-                  <input type="text" name="aadharr" value={aadharr} onChange={(e) => setAadharr(e.target.value)} maxLength="12" minLength="12" placeholder="Aadhar Number" className="border w-full px-4 py-2 rounded-md" id="" />
+                  <input type="tel" name="mnumber" value={mnumber} onChange={(e) => setMnumber(e.target.value)} pattern="\d*" maxLength="10" minLength="10" placeholder="Mobile Number" className="border w-full px-4 py-2 rounded-md" id="" />
+                  <input type="tel" name="aadharr" value={aadharr} onChange={(e) => setAadharr(e.target.value)} pattern="\d*" maxLength="12" minLength="12" placeholder="Aadhar Number" className="border w-full px-4 py-2 rounded-md" id="" />
                 </div>
                 <input type="email" name="emailr" value={emailr} onChange={(e) => setEmailr(e.target.value)} className="border w-full px-4 py-2 rounded-md" placeholder="Email" />
                 <input type="password" name="passwd" value={passwd} onChange={(e) => setPasswd(e.target.value)} className="border w-full px-4 py-2 rounded-md" placeholder="Password" id="" />

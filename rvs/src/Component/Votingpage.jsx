@@ -7,14 +7,10 @@ const queryParameters = new URLSearchParams(window.location.search)
 const id = queryParameters.get("id")
 async function fetchUserData() {
 
+   
 
-    const cookies = new Cookies();
-    const valc = cookies.get('BROWSER-X-RENDER-COOKIE')
 
-    const navigate = useNavigate();
-
-    if (valc === undefined)
-        navigate('/')
+        
 
     
     const id = queryParameters.get("id")
@@ -134,7 +130,9 @@ function Votingpage() {
 
 
     return (
+        
         <>
+        <br /><br /><br />
             <header className="flex justify-center p-5 bg-cover bg-[url('./assets/BG.png')] border-b-2">
                 <h1 className="font-bold text-3xl text-center text-gray-950">Voting Section</h1>
             </header>
